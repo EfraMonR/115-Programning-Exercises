@@ -13,9 +13,9 @@ int main()
     float num, ra, po;
     string again = "S";
 
-    while (again == "S" || again == "s")
+    while(again == "S" || again == "s")
     {
-        system("chcp 65001");
+        system("chcp 65001"); //Para el idioma en español (acentos)
         system("cls"); // Para limpiar la pantalla
 
         cout << "\n\t Programa que cálcula la raíz y el cuadrado de un número";
@@ -40,7 +40,7 @@ int main()
 
         if(num >= 0)
         {
-            cout << "\n\t La raíz cuadra es: " << "+/-" << ra << "\n\n";
+            cout << "\n\t La raíz cuadra es: " << "+/- " << ra << "\n\n";
         }
 
         cout << "\n\t El cuadrado del número es: " << po << "\n\n";
